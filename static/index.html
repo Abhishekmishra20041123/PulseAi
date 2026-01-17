@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PulsePoint AI | Viral Reel Generator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Outfit:wght@600;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main class="container">
+        <nav>
+            <ul>
+                <li><strong>PulsePoint AI</strong></li>
+            </ul>
+            <ul>
+                <li><a href="#" class="secondary">Docs</a></li>
+                <li><a href="#" role="button">Get Started</a></li>
+            </ul>
+        </nav>
+
+        <header class="hero">
+            <h1>Turn Long Videos into <span class="gradient-text">Viral Nuggets</span></h1>
+            <p>AI-powered platform to identify emotional peaks, smart-crop to vertical, and generate dynamic captions.
+            </p>
+        </header>
+
+        <section id="upload-section">
+            <div class="upload-card">
+                <div id="drop-zone">
+                    <img src="https://img.icons8.com/fluency/96/video-file.png" alt="Upload Icon">
+                    <h3>Upload your Video</h3>
+                    <p>Drag and drop or click to browse</p>
+                    <input type="file" id="video-input" accept="video/*" hidden>
+                    <button id="browse-btn" class="outline">Browse Files</button>
+
+                    <div class="divider">OR</div>
+
+                    <div class="url-input-group">
+                        <input type="text" id="drive-link" placeholder="Paste Google Drive Link here...">
+                        <button id="process-link-btn">Process Link</button>
+                    </div>
+                </div>
+                <div id="progress-container" style="display: none;">
+                    <progress id="upload-progress" value="0" max="100"></progress>
+                    <p id="status-text">Uploading...</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="results-section" style="display: none;">
+            <h2>Your Viral Reels</h2>
+            <div id="reels-grid" class="grid">
+                <!-- Reels will be injected here -->
+            </div>
+        </section>
+
+        <footer class="container">
+            <small><a href="#">Privacy Policy</a> • <a href="#">Terms of Service</a></small>
+        </footer>
+    </main>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>

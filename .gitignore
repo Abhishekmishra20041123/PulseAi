@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# PulsePoint AI Specific
+uploads/
+output/
+*.mp4
+*.mp3
+*.log
+
+# Allow the demo video if specifically added to assets (optional, but good practice to ignore general media)
+!assets/demo.mp4
+# Large media files
+*.mp4
+*.mov
+*.avi
+*.wav
+
+assets/
+output/
+uploads/
