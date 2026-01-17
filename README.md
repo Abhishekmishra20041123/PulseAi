@@ -3,7 +3,7 @@
 PulsePoint AI is a platform where users upload long-form videos and the app uses GenAI and Multimodal models to automatically generate viral short-form reels.
 
 ## Demo
-![Demo Video](assets/demo.mp4)
+![[Demo Video](https://drive.google.com/file/d/1bylBG49cQqduVboykUhKUeQs5OP3P8Wk/view?usp=sharing)](assets/demo.mp4)
 
 ## Features
 - **Identify "Emotional Peaks"**: Detect high-energy or profound moments using audio spikes and sentiment analysis.
